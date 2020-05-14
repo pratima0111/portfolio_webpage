@@ -1,0 +1,105 @@
+
+h1{
+    font-size:50px;
+    cursor: pointer;
+    font-family:cursive;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+body{
+    background-color: rgba(199, 197, 197, 0.76);
+    padding:0;
+    margin:0;
+}
+#quote1{
+    cursor:pointer;
+    color:black;
+    text-align: center;
+    font-size:50px;
+    font-family: 'Aguafina Script';
+    border-bottom: 6px  rgba(199, 197, 197, 0.76);
+    border-radius: 5px;
+    border-style:outset;
+    margin: 10px 300px 10px 300px;
+    transition:all 1sec;
+
+    
+}
+#quote1:hover{
+    color:whitesmoke;
+    background-color: rgba(134, 134, 134, 0.356);
+    transform: scale(1.01);
+}
+
+#quote2{
+    color:black;
+    cursor:pointer;
+    text-align: center;
+    font-size:50px;
+    font-family: 'Aguafina Script';
+    border-bottom: 6px  rgba(199, 197, 197, 0.76);
+    border-radius: 5px;
+    border-style:outset;
+    margin:10px 50px 10px 50px;
+    transition:all 1sec;
+
+}
+#quote2:hover{
+    color:whitesmoke;
+    background-color: rgba(134, 134, 134, 0.356);
+    transform: scale(1.01);
+}
+#caption{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+#image{
+    display:block;
+    border-bottom: 6px solid grey;
+    border-top: 6px solid grey;
+    border-right: 6px solid grey;
+    border-left: 6px solid grey;
+    margin-right: auto;
+    margin-left: auto;
+    transition: all 1sec;
+}
+#image:hover{
+    transform:scale(1.01);
+}
+#tribute-info{
+    text-align: centre;
+    background-color: rgb(221, 230, 226);
+    text-shadow: rgb(34, 51, 34);
+    font-style: oblique;
+    font-weight: 100;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid rgba(194, 181, 181, 0.103);
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+#tab{
+    background-color:  rgb(221, 230, 226);
+    border-bottom: 1px solid grey;
+    border-top: 1px solid rgba(194, 181, 181, 0.103);
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    
+}
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+footer{
+    font-family: cursive;
+    font-size:30px;
+    padding-top: 20px;
+    font-weight: 800px;
+}

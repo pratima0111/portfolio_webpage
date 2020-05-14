@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    height: 100%;
+    width:100%;
+    position: absolute;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+#navbar{
+    position:fixed;
+    z-index:2;
+    top: 0px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background:deepskyblue;
+}
+#navbar a{
+    text-decoration: none;
+    display: block;
+    padding:1em;
+    font-size:1.5em;
+    font-weight: bolder;
+    color:white;
+}
+#navbar:hover{
+    background-color:#00abe5 ;
+}
+#me{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 50%;
+    border: 3.5px ridge white;
+}
+#Welcome{
+    text-align:center;
+    background:lightgrey;
+    padding-bottom: 15vh;
+    padding-top: 15vh ;
+}
+table{
+    border-collapse: collapse;
+}
+tr, td{
+    text-align: left;
+    padding: 2.3%;
+}
+tr{
+    background-color:white;
+}
+
+#projects{
+    text-align: center;
+    background: white;
+}
+#contact{
+    text-align: center;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+#profile_img{
+    width: 25vw;
+    height: 40vh;
+    border-radius: 50%;
+    border: 3.5px ridge white;
+}
+.titles{
+
+    background-color: white;
+    padding: 2em;
+}
+.project-titles{
+    z-index:1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.project-titles a{
+    font-size: 110%;
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+
+
+}
+.project-titles:hover{
+    opacity:0.5;    
+}
+
+.responsive{
+    width: 30vw;
+    height: 30vh;
+    display:grid;
+    justify-content: center;
+}
+
+.titles{
+    display:grid;
+    grid-template-columns:33.33% 33.33% 33.33%;
+    
+}
+
+.circle{
+    background-color: rgba(196, 236, 247, 0.616);
+    height: 10vh;
+    width:10vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 3.8%;
+    margin-bottom: 2%;
+ 
+}
+.circle a{
+    color:white;
+    text-decoration: none;
+}
+footer{
+    position: relative;
+    bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer{
+    text-align: center;
+    vertical-align: middle;
+    height: 11vh;
+    width: 100%;
+    background-color:deepskyblue ;
+    padding-top: 2%;
+}

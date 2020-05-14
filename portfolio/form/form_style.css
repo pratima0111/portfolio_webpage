@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(219, 47, 47, 0.164);
+    
+}
+#container{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imag{
+        width: 20%;
+        display:block;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;          
+}
+#title{
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+}
+
+input[type=text], input[type=email], input[type=number],textarea,input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+form{
+   background-color: white;
+   margin:30px 30px;
+   display:flex;
+   flex-direction: column;
+   border: 2px solid lightgray;
+   padding: 10px 10px 10px 10px;
+}
+
+
+input, text-area{
+    max-width: 500px;
+}
+.labels{
+    font-size:20px;
+    margin:20px
+}
+#submit-button{
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+}
+#submit-button:hover{
+    opacity: 0.8;
+}
