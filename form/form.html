@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="form_style.css">
+    </head>
+    <body>
+        <h1 id="title">FORM APPLICATION </h1>
+    </body>
+    <div id="container">
+        <form>
+            <div>
+                <img src="img.png" class="imag" alt="image">
+            </div>
+            <h2 style="text-align: center;">Please fill out your detail here...</h2>
+            <div class="labels">
+                <label for="name" id="name_label">Name:</label><br>
+                <input type="text" id="name" required placeholder="Enter your name">
+            </div>
+            <div class="labels">
+                <label for="address_label" id="address">Address:</label><br>
+                <input type="text" id="address_label"  name="Address" placeholder="Enter your address">
+            </div>
+            <div class="labels">
+                <label for="email_label" id="Email">Email:</label> <br>
+                <input type="email" id="email_label" required placeholder="Enter your email address">
+            </div>      
+            <div class="labels">
+                <label for="phone_num" id="phone">Phone No.:</label><br>
+                <input type="number" id="phone_num" requires placeholder="Enter 10 digit phone-no.">
+            </div>
+            <div>
+                <label for="Gender" class="labels">Gender</label>
+                    <p>
+                        <input type="radio" name="gender" value="male"> Male<br>
+                        <input type="radio" name="gender" value="female" checked> Female<br>
+                        <input type="radio" name="gender" value="other"> Other
+                    </p>
+            </div>
+            <div>
+                <label for="date" id="datee" class="labels">D.O.B:</label><br>
+                <input type="date" id="date">
+            </div>
+            <label id="terms-n-condition" class="labels">Check all that applies:
+            </label>
+            <div>
+                <input type="checkbox" id="cricket" name="1" value="1">
+                <label for="cricket" class="labels" >Do you have interest in cricket?</label>
+            </div>
+            <div>
+                <input type="checkbox" id="drawing" name="2" value="2">
+                <label for="drawing" class="labels">Do you have interest in drawing?</label>
+            </div>
+            <div>
+                <input type="checkbox" id="book" name="book" value="book">
+                <label for="book" id="book-label" class="labels">Do you like reading books?</label>
+            </div>
+            <br>
+            <div>
+                <label for="eduction"  id="education" class="labels">Education completed level:</label>
+                <select name="education" >
+                    <option value="highschool">HighSchool</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="university">University</option>
+                </select>
+            </div>
+            <div class="labels">
+                <label for="descripion" class="labels">Describe youself: </label><br>
+                <textarea name="description" id="descripion" cols="30" rows="10" placeholder="Write something here..."></textarea>
+            </div>
+            <div>
+                <button type="submit" class="labels" id="submit-button" style="background-color: rgb(230, 142, 175);">
+                    Submit
+                </button>    
+            </div>
+
+        </form>
+    
+    </div>
+    
+</html>
